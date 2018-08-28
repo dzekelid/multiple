@@ -10,11 +10,26 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Multiple
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/ship-station/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Ship Station Developer Portal - Create/Update Multiple Orders
+  x-api-slug: orderscreateorders-post
+  description: |-
+    This endpoint can be used to create or update multiple orders in one request. If the ``orderKey`` is specified in an order, the existing order with that key will be updated. Note: Only orders in an open status in ShipStation (``awaiting_payment``,``awaiting_shipment``, and ``on_hold``) can be updated through this method. ``cancelled`` and ``shipped`` are locked from modification through the API.
+
+    Data Type          |Description
+    -------------------|-------------------
+    Order, required | An array of [**Order**](http://www.shipstation.com/developer-api/#/reference/model-order) objects (maximum of 100 per request)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png
+  humanURL: http://bit.ly/_ShipStation
+  baseURL: https://ssapi.shipstation.com//
+  tags: Shipping, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/ship-station/orderscreateorders-post-openapi.md
 x-common:
 - type: x-website
   url: http://bit.ly/_ShipStation

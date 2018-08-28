@@ -12,11 +12,21 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Multiple
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/bigcommerce/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: BigCommerce API V3 - Delete multiple products
+  x-api-slug: storehashv3catalogproducts-delete
+  description: Deletes products that aren't marked as visible using a filter parameter
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/bigcommerce/storehashv3catalogproducts-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://betterdoctor.api.gallery.streamdata.io

@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Multiple
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -91,6 +91,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/plentymarkets/restwarehouseslocations-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/plentymarkets/restwarehouseslocations-delete-openapi.md
+- name: plentymarkets REST-API - Create multiple warehouse location dimensions
+  x-api-slug: restwarehouseslocationsmultiple-dimensions-post
+  description: Creates multiple warehouse location dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/plentymarkets/restwarehouseslocationsmultiple-dimensions-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

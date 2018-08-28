@@ -10,11 +10,95 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-
 x-kinRank: "7"
 x-alexaRank: "78099"
 tags: Multiple
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/3dcart/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: _3dCartWebAPI - This method is used to update multiple category records in
+    the database. No {categoryid} parameters should be included.
+  x-api-slug: 3dcartwebapiv1categories-put
+  description: This method is used to update multiple category records in the database.
+    no {categoryid} parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/3dcart/3dcartwebapiv1categories-put-openapi.md
+- name: _3dCartWebAPI - This method is used to update multiple customers in the system.
+    No URL parameters should be included.
+  x-api-slug: 3dcartwebapiv1customers-put
+  description: This method is used to update multiple customers in the system. no
+    url parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/3dcart/3dcartwebapiv1customers-put-openapi.md
+- name: _3dCartWebAPI - This method is used to update multiple distributor records
+    in the database. No {distributorid} parameters should be included.
+  x-api-slug: 3dcartwebapiv1distributors-put
+  description: This method is used to update multiple distributor records in the database.
+    no {distributorid} parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/3dcart/3dcartwebapiv1distributors-put-openapi.md
+- name: _3dCartWebAPI - This method is used to update multiple manufacturers in the
+    database. No URL parameters should be included.
+  x-api-slug: 3dcartwebapiv1manufacturers-put
+  description: This method is used to update multiple manufacturers in the database.
+    no url parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/3dcart/3dcartwebapiv1manufacturers-put-openapi.md
+- name: _3dCartWebAPI - This method is used to update multiple orders in the database.
+    No URL parameters should be included.
+  x-api-slug: 3dcartwebapiv1orders-put
+  description: This method is used to update multiple orders in the database. no url
+    parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/3dcart/3dcartwebapiv1orders-put-openapi.md
+- name: _3dCartWebAPI - This method is used to update multiple paymenttokens in the
+    database. No URL parameters should be included.
+  x-api-slug: 3dcartwebapiv1paymenttokens-put
+  description: This method is used to update multiple paymenttokens in the database.
+    no url parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/3dcart/3dcartwebapiv1paymenttokens-put-openapi.md
+- name: _3dCartWebAPI - This method is used to update multiple products in the database.
+    No URL parameters should be included.
+  x-api-slug: 3dcartwebapiv1products-put
+  description: This method is used to update multiple products in the database. no
+    url parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/3dcart/3dcartwebapiv1products-put-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/3dcart

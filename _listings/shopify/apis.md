@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Multiple
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/shopify/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/shopify/admincustomers3989659651addressesset-json-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/shopify/admincustomers3989659651addressesset-json-put-openapi.md
+- name: Shopify API - Create a new product with multiple product variants
+  x-api-slug: adminproducts-json-post
+  description: Create a new product with multiple product variants.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/shopify/adminproducts-json-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ship.station.api.gallery.streamdata.io

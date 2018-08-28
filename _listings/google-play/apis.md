@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Multiple
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/google-play/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Play - Update Multiple Achievements
+  x-api-slug: achievementsupdatemultiple-post
+  description: Updates multiple achievements for the currently authenticated player.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/multiple/master/_listings/google-play/achievementsupdatemultiple-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.people.api.gallery.streamdata.io
